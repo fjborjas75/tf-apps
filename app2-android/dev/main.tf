@@ -4,7 +4,7 @@
 locals {
   name_suffix = "${var.app_name}-${var.environment}-${var.region}"
   tags = merge(
-    { NewTag = "foobar" },
+    { NewTag = "pepe" },
     {
       Source          = "terraform cloud"
       Env             = var.environment
